@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/number_id"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:background="#B00020"
+        android:gravity="center"
+        android:text="Numbers"
+        android:textColor="#000000"
+        android:textSize="24dp"/>
+        <!--android:onClick="startActivity"-->
+    <TextView
+        android:id="@+id/family_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:text="Family"
+        android:gravity="center"
+        android:background="#3700B3"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/colors_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:text="Colors"
+        android:gravity="center"
+        android:background="#ffde03"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/phrases_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:text="Phrases"
+        android:gravity="center"
+        android:background="#90ee02"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+</LinearLayout>
